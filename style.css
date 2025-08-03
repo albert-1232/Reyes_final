@@ -1,0 +1,175 @@
+body {
+  background-color: #039be5;
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  color: #000;
+}
+
+.container {
+  padding: 20px;
+}
+
+h1 {
+  font-size: 24px;
+  font-weight: normal;
+}
+
+.highlight {
+  font-weight: bold;
+  color: white;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="password"] {
+  width: 100%;
+  padding: 10px;
+  margin: 10px 0;
+  border-radius: 10px;
+  border: 1px solid #444;
+}
+
+button {
+  width: 100%;
+  padding: 10px;
+  background-color: black;
+  color: white;
+  border: none;
+  border-radius: 10px;
+  margin-top: 10px;
+}
+
+.card {
+  background-color: #81d4fa;
+  padding: 15px;
+  margin: 15px 0;
+  border-radius: 15px;
+}
+
+.card img.logo-img {
+  width: 50px;
+  height: 50px;
+  border-radius: 25px;
+}
+
+.card h2 {
+  font-weight: bold;
+}
+
+.tag {
+  background-color: #e0f7fa;
+  padding: 5px 10px;
+  border-radius: 10px;
+  display: inline-block;
+  margin-top: 5px;
+}
+
+.location {
+  text-align: right;
+  font-size: 12px;
+  margin-top: 10px;
+}
+
+.bottom-nav {
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  background: #0288d1;
+  display: flex;
+  justify-content: space-around;
+  padding: 10px 0;
+  font-size: 14px;
+  border-top: 1px solid #007bb5;
+}
+
+.bottom-nav div {
+  text-align: center;
+  color: black;
+  
+}
+
+.bottom-nav .active {
+  font-weight: bold;
+  color: white;
+}
+.bottom-nav {
+  display: flex;
+  justify-content: space-around;
+  background-color: black;
+  padding: 10px 0;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  box-shadow: 0 -2px 5px rgba(0,0,0,0.1);
+}
+
+.nav-item {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-size: 14px;
+  color: #555;
+}
+
+.nav-item i {
+  font-size: 18px;
+  margin-bottom: 4px;
+}
+
+.nav-item.active {
+  color: white;
+}
+
+.bottom-nav {
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background-color: #0288d1;
+  padding: 0.75rem; /* py-3 */
+  box-shadow: 0 -2px 5px rgba(0, 0, 0, 0.2);
+  z-index: 50;
+}
+
+.nav-list {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.nav-item {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  color:black;
+}
+
+.nav-item.active {
+  font-weight: bold;
+}
+
+.nav-link {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  color: white;
+  text-decoration: none;
+}
+
+.nav-link:hover {
+  opacity: 0.8;
+}
+.company-link {
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   color: black;
+   text-decoration: none;
+}
+.company-link:hover{
+  opacity: 0.8;
+}

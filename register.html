@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Create Account - GradJob</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"/>
+</head>
+<body class="bg-[#039be5] min-h-screen flex flex-col items-center justify-start py-12 px-6">
+
+
+  <img src="images/image 2.png"
+       alt="GradJob logo"
+       class="w-28 h-28 mb-4 rounded-full" />
+
+>
+  <h1 class="text-xl font-semibold text-black">Create your Account</h1>
+  <p class="text-sm text-black mb-10">Welcome User</p>
+
+
+  <form class="w-full max-w-sm space-y-5" onsubmit="return false;">
+    
+    <div class="flex items-center bg-[#4fc3f7] border border-black rounded-xl px-4 py-3">
+      <i class="fas fa-user text-black mr-3"></i>
+      <input type="text" placeholder="Username" class="w-full bg-transparent text-black placeholder-black outline-none"/>
+    </div>
+
+
+    <div class="flex items-center bg-[#4fc3f7] border border-black rounded-xl px-4 py-3">
+      <i class="fas fa-envelope text-black mr-3"></i>
+      <input type="email" placeholder="Email" class="w-full bg-transparent text-black placeholder-black outline-none"/>
+    </div>
+
+  
+    <div class="flex items-center bg-[#4fc3f7] border border-black rounded-xl px-4 py-3">
+      <i class="fas fa-lock text-black mr-3"></i>
+      <input type="password" placeholder="Password" class="w-full bg-transparent text-black placeholder-black outline-none"/>
+    </div>
+
+   
+    <div class="flex items-center bg-[#4fc3f7] border border-black rounded-xl px-4 py-3">
+      <i class="fas fa-lock text-black mr-3"></i>
+      <input type="password" placeholder="Confirm Password" class="w-full bg-transparent text-black placeholder-black outline-none"/>
+    </div>
+
+  
+    <button type="button" onclick="window.location.href='login.html';"
+      class="w-full py-3 bg-purple-700 text-white font-medium text-lg rounded-full hover:bg-purple-800 transition">
+      Submit
+    </button>
+  </form>
+
+</body>
+</html>
